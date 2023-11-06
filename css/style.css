@@ -36,9 +36,7 @@ header{
     padding-bottom: 0;
 }
 
-.planning{
-    width: 100%;
-}
+
 
 .content.bg-white.text-center{
     border-radius: 20px;
@@ -50,6 +48,10 @@ header{
     padding: 10px;
     border-radius: 50%;
 
+}
+
+.testimonial{
+    border-radius: 30%;
 }
 
 /* FOOTER  */
@@ -86,7 +88,7 @@ footer{
 }
 
 img{
-    width: 10rem;
+    width: 15rem;
 }
 
 ul{
@@ -159,6 +161,10 @@ button{
 
 .white{
     color: white;
+}
+
+.purple{
+    color: rgb(136, 99, 198);
 }
 
 /* MEDIA QUERY */
