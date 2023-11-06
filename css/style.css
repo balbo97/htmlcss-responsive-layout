@@ -51,7 +51,11 @@ header{
 }
 
 .testimonial{
-    border-radius: 30%;
+    border-radius: 50%;
+}
+
+.about{
+    border-radius: 50%;
 }
 
 .number{
