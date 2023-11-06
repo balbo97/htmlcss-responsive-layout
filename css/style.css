@@ -8,15 +8,38 @@
 /* HEADER  */
 header{
     background-color: rgb(14, 110, 245);
+    color: white;
 }
 
 .logo{
-    width: 20px;
+    width: 60px;
+    align-self: center;
+    display: flex;
+}
+
+.fa-bars{
+    align-self: center;
+    font-size: 25px;
+
+}
+
+.display-none{
+    align-self: center;
+}
+
+/* MAIN  */
+#phone{
+    margin-bottom: 0;
+}
+
+.col-100.col-67{
+    padding-bottom: 0;
 }
 
 /* FOOTER  */
 footer{
     background-color: rgb(22, 22, 22);
+    color: white;
 }
 
 /* UTILITY */
@@ -33,15 +56,12 @@ footer{
 
 .col-100{
     width: 100%;
-    height: 150px;
-    background-color: skyblue;
     margin: 10px;
-    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .col-50{
-    height: 150px;
-    background-color: skyblue;
     margin: 10px;
 }
 
@@ -53,6 +73,50 @@ img{
     width: 10rem;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    align-self: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center{
+    align-self: center;
+}
+
+button{
+    padding: 5px 10%;
+    border-radius: 35%;
+    border: none;
+}
+
+.content * {
+    margin: 15px 0;
+}
+
+.fa-file-code , .fa-compass-drafting , .fa-laptop-code , .fa-bullhorn {
+    font-size: 4rem;
+    color: rgb(5, 83, 230);
+}
+
+.relative{
+    position: relative;
+}
+
+.text-center{
+    text-align: center;
+}
 
 
 
@@ -63,6 +127,22 @@ img{
 
 .bg-purple{
     background-color: rgb(137, 32, 250);
+}
+
+.bg-blue{
+    background-color: rgb(5, 83, 230);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.blue{
+    color: rgb(5, 83, 230);
+}
+
+.white{
+    color: white;
 }
 
 /* MEDIA QUERY */
@@ -99,5 +179,9 @@ img{
 
     #col-33{
         width: calc(100% / 3 - 20px);
+    }
+
+    #phone{
+        float: right;
     }
 }
