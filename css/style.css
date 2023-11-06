@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER  */
+header{
+    background-color: rgb(14, 110, 245);
+}
+
+/* FOOTER  */
+footer{
+    background-color: rgb(22, 22, 22);
+}
+
+/* UTILITY */
+
+.container{
+    max-width: 480px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.col-100{
+    width: 100%;
+    height: 150px;
+    background-color: skyblue;
+    margin: 10px;
+}
+
+.col-50{
+    width: 50%;
+    height: 80px;
+    background-color: white;
+    margin: 10px;
+}
+
+/* COLORS */
+
+.bg-sky-blue{
+    background-color: skyblue;
+}
+
+.bg-purple{
+    background-color: rgb(137, 32, 250);
+}
