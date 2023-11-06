@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* HEADER  */
 header{
     background-color: rgb(14, 110, 245);
@@ -17,7 +18,7 @@ footer{
 /* UTILITY */
 
 .container{
-    max-width: 480px;
+    max-width: 100%;
 }
 .row{
     display: flex;
@@ -41,7 +42,6 @@ footer{
 }
 
 /* COLORS */
-
 .bg-sky-blue{
     background-color: skyblue;
 }
@@ -49,3 +49,5 @@ footer{
 .bg-purple{
     background-color: rgb(137, 32, 250);
 }
+
+/* MEDIA QUERY */
