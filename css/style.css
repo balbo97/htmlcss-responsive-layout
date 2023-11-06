@@ -34,12 +34,10 @@ footer{
     margin: 10px;
 }
 
-.col-50{
-    width: 50%;
-    height: 80px;
-    background-color: white;
-    margin: 10px;
+.display-none{
+    display: none;
 }
+
 
 /* COLORS */
 .bg-sky-blue{
@@ -51,3 +49,34 @@ footer{
 }
 
 /* MEDIA QUERY */
+
+/* TABLET */
+@media screen and (min-width : 768px){
+    
+    .col-67{
+        width: calc(100% / 3 * 2 - 20px );
+    }
+    
+    .col-50{
+        width: calc(100% / 2 - 20px);
+    }
+    
+    .col-33{
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width : 991px){
+    .display-none{
+        display: inline;
+    }
+
+    #col-50{
+        width: calc(100% / 2 - 20px);
+    }
+
+    #col-33{
+        width: calc(100% / 3 - 20px);
+    }
+}
