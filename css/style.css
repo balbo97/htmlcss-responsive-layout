@@ -51,6 +51,8 @@ header{
 }
 
 .testimonial{
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -123,7 +125,7 @@ li{
 
 button{
     padding: 5px 10%;
-    border-radius: 35%;
+    border-radius: 35px;
     border: none;
 }
 
